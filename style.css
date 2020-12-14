@@ -908,7 +908,7 @@ body {
     margin-right: 20px;
   }
   .features__items2 {
-    margin-right: 45px;
+    margin-right: 40px;
   }
   .features__testdrive {
     margin-right: 20px;
@@ -947,6 +947,17 @@ body {
   }
 }
 
+@media (max-width: 420px) {
+  .intro__ipad {
+    display: none;
+  }
+  .intro__mobile {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
 @media (max-width: 402px) {
   .features__img {
     margin-left: 30px;
@@ -960,16 +971,11 @@ body {
   .section__h2 {
     background-image: none;
   }
-  .section__title, .intro__ipad {
+  .section__title {
     display: none;
   }
   .section__img {
     display: block;
-    width: 100%;
-  }
-  .intro__mobile {
-    display: flex;
-    justify-content: center;
     width: 100%;
   }
   .section__submain {
